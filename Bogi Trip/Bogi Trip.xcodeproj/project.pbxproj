@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11D1C8282790C5E1007C9752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C8272790C5E1007C9752 /* AppDelegate.swift */; };
+		11D1C82A2790C5E1007C9752 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C8292790C5E1007C9752 /* SceneDelegate.swift */; };
+		11D1C82C2790C5E1007C9752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C82B2790C5E1007C9752 /* ViewController.swift */; };
+		11D1C8312790C5E9007C9752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D1C8302790C5E9007C9752 /* Assets.xcassets */; };
+		11D1C8342790C5E9007C9752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1C8322790C5E9007C9752 /* LaunchScreen.storyboard */; };
+		11D1C83F2790C5E9007C9752 /* Bogi_TripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C83E2790C5E9007C9752 /* Bogi_TripTests.swift */; };
+		11D1C84A2790C5E9007C9752 /* Bogi_TripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C8492790C5E9007C9752 /* Bogi_TripUITests.swift */; };
+		11D1C8582790C64D007C9752 /* RandomSelectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D1C8572790C64D007C9752 /* RandomSelectionModel.swift */; };
+		11D1C85B2790C6B6007C9752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D1C8592790C6B6007C9752 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D1C83B2790C5E9007C9752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D1C81C2790C5E0007C9752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D1C8232790C5E1007C9752;
+			remoteInfo = "Bogi Trip";
+		};
+		11D1C8462790C5E9007C9752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11D1C81C2790C5E0007C9752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11D1C8232790C5E1007C9752;
+			remoteInfo = "Bogi Trip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11D1C8242790C5E1007C9752 /* Bogi Trip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bogi Trip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D1C8272790C5E1007C9752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11D1C8292790C5E1007C9752 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11D1C82B2790C5E1007C9752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11D1C8302790C5E9007C9752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11D1C8332790C5E9007C9752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11D1C8352790C5E9007C9752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D1C83A2790C5E9007C9752 /* Bogi TripTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bogi TripTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D1C83E2790C5E9007C9752 /* Bogi_TripTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bogi_TripTests.swift; sourceTree = "<group>"; };
+		11D1C8402790C5E9007C9752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D1C8452790C5E9007C9752 /* Bogi TripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bogi TripUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D1C8492790C5E9007C9752 /* Bogi_TripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bogi_TripUITests.swift; sourceTree = "<group>"; };
+		11D1C84B2790C5E9007C9752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D1C8572790C64D007C9752 /* RandomSelectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomSelectionModel.swift; sourceTree = "<group>"; };
+		11D1C85A2790C6B6007C9752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../Bogi Trip v1/Bogi Trip v1/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D1C8212790C5E1007C9752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1C8372790C5E9007C9752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1C8422790C5E9007C9752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D1C81B2790C5E0007C9752 = {
+			isa = PBXGroup;
+			children = (
+				11D1C8262790C5E1007C9752 /* Bogi Trip */,
+				11D1C83D2790C5E9007C9752 /* Bogi TripTests */,
+				11D1C8482790C5E9007C9752 /* Bogi TripUITests */,
+				11D1C8252790C5E1007C9752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11D1C8252790C5E1007C9752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11D1C8242790C5E1007C9752 /* Bogi Trip.app */,
+				11D1C83A2790C5E9007C9752 /* Bogi TripTests.xctest */,
+				11D1C8452790C5E9007C9752 /* Bogi TripUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11D1C8262790C5E1007C9752 /* Bogi Trip */ = {
+			isa = PBXGroup;
+			children = (
+				11D1C8272790C5E1007C9752 /* AppDelegate.swift */,
+				11D1C8292790C5E1007C9752 /* SceneDelegate.swift */,
+				11D1C82B2790C5E1007C9752 /* ViewController.swift */,
+				11D1C8572790C64D007C9752 /* RandomSelectionModel.swift */,
+				11D1C8592790C6B6007C9752 /* Main.storyboard */,
+				11D1C8302790C5E9007C9752 /* Assets.xcassets */,
+				11D1C8322790C5E9007C9752 /* LaunchScreen.storyboard */,
+				11D1C8352790C5E9007C9752 /* Info.plist */,
+			);
+			path = "Bogi Trip";
+			sourceTree = "<group>";
+		};
+		11D1C83D2790C5E9007C9752 /* Bogi TripTests */ = {
+			isa = PBXGroup;
+			children = (
+				11D1C83E2790C5E9007C9752 /* Bogi_TripTests.swift */,
+				11D1C8402790C5E9007C9752 /* Info.plist */,
+			);
+			path = "Bogi TripTests";
+			sourceTree = "<group>";
+		};
+		11D1C8482790C5E9007C9752 /* Bogi TripUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11D1C8492790C5E9007C9752 /* Bogi_TripUITests.swift */,
+				11D1C84B2790C5E9007C9752 /* Info.plist */,
+			);
+			path = "Bogi TripUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11D1C8232790C5E1007C9752 /* Bogi Trip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D1C84E2790C5E9007C9752 /* Build configuration list for PBXNativeTarget "Bogi Trip" */;
+			buildPhases = (
+				11D1C8202790C5E1007C9752 /* Sources */,
+				11D1C8212790C5E1007C9752 /* Frameworks */,
+				11D1C8222790C5E1007C9752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bogi Trip";
+			productName = "Bogi Trip";
+			productReference = 11D1C8242790C5E1007C9752 /* Bogi Trip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11D1C8392790C5E9007C9752 /* Bogi TripTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D1C8512790C5E9007C9752 /* Build configuration list for PBXNativeTarget "Bogi TripTests" */;
+			buildPhases = (
+				11D1C8362790C5E9007C9752 /* Sources */,
+				11D1C8372790C5E9007C9752 /* Frameworks */,
+				11D1C8382790C5E9007C9752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D1C83C2790C5E9007C9752 /* PBXTargetDependency */,
+			);
+			name = "Bogi TripTests";
+			productName = "Bogi TripTests";
+			productReference = 11D1C83A2790C5E9007C9752 /* Bogi TripTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11D1C8442790C5E9007C9752 /* Bogi TripUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11D1C8542790C5E9007C9752 /* Build configuration list for PBXNativeTarget "Bogi TripUITests" */;
+			buildPhases = (
+				11D1C8412790C5E9007C9752 /* Sources */,
+				11D1C8422790C5E9007C9752 /* Frameworks */,
+				11D1C8432790C5E9007C9752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11D1C8472790C5E9007C9752 /* PBXTargetDependency */,
+			);
+			name = "Bogi TripUITests";
+			productName = "Bogi TripUITests";
+			productReference = 11D1C8452790C5E9007C9752 /* Bogi TripUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11D1C81C2790C5E0007C9752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Tymon Kobylecki";
+				TargetAttributes = {
+					11D1C8232790C5E1007C9752 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					11D1C8392790C5E9007C9752 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 11D1C8232790C5E1007C9752;
+					};
+					11D1C8442790C5E9007C9752 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 11D1C8232790C5E1007C9752;
+					};
+				};
+			};
+			buildConfigurationList = 11D1C81F2790C5E0007C9752 /* Build configuration list for PBXProject "Bogi Trip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11D1C81B2790C5E0007C9752;
+			productRefGroup = 11D1C8252790C5E1007C9752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11D1C8232790C5E1007C9752 /* Bogi Trip */,
+				11D1C8392790C5E9007C9752 /* Bogi TripTests */,
+				11D1C8442790C5E9007C9752 /* Bogi TripUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11D1C8222790C5E1007C9752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D1C85B2790C6B6007C9752 /* Main.storyboard in Resources */,
+				11D1C8342790C5E9007C9752 /* LaunchScreen.storyboard in Resources */,
+				11D1C8312790C5E9007C9752 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1C8382790C5E9007C9752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1C8432790C5E9007C9752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11D1C8202790C5E1007C9752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D1C82C2790C5E1007C9752 /* ViewController.swift in Sources */,
+				11D1C8582790C64D007C9752 /* RandomSelectionModel.swift in Sources */,
+				11D1C8282790C5E1007C9752 /* AppDelegate.swift in Sources */,
+				11D1C82A2790C5E1007C9752 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1C8362790C5E9007C9752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D1C83F2790C5E9007C9752 /* Bogi_TripTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11D1C8412790C5E9007C9752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D1C84A2790C5E9007C9752 /* Bogi_TripUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11D1C83C2790C5E9007C9752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D1C8232790C5E1007C9752 /* Bogi Trip */;
+			targetProxy = 11D1C83B2790C5E9007C9752 /* PBXContainerItemProxy */;
+		};
+		11D1C8472790C5E9007C9752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11D1C8232790C5E1007C9752 /* Bogi Trip */;
+			targetProxy = 11D1C8462790C5E9007C9752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11D1C8322790C5E9007C9752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D1C8332790C5E9007C9752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		11D1C8592790C6B6007C9752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11D1C85A2790C6B6007C9752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11D1C84C2790C5E9007C9752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11D1C84D2790C5E9007C9752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11D1C84F2790C5E9007C9752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bogi Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKobylecki.Bogi-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11D1C8502790C5E9007C9752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bogi Trip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKobylecki.Bogi-Trip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11D1C8522790C5E9007C9752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bogi TripTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKobylecki.Bogi-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bogi Trip.app/Bogi Trip";
+			};
+			name = Debug;
+		};
+		11D1C8532790C5E9007C9752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bogi TripTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKobylecki.Bogi-TripTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bogi Trip.app/Bogi Trip";
+			};
+			name = Release;
+		};
+		11D1C8552790C5E9007C9752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bogi TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKobylecki.Bogi-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bogi Trip";
+			};
+			name = Debug;
+		};
+		11D1C8562790C5E9007C9752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Bogi TripUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TKobylecki.Bogi-TripUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Bogi Trip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11D1C81F2790C5E0007C9752 /* Build configuration list for PBXProject "Bogi Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D1C84C2790C5E9007C9752 /* Debug */,
+				11D1C84D2790C5E9007C9752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D1C84E2790C5E9007C9752 /* Build configuration list for PBXNativeTarget "Bogi Trip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D1C84F2790C5E9007C9752 /* Debug */,
+				11D1C8502790C5E9007C9752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D1C8512790C5E9007C9752 /* Build configuration list for PBXNativeTarget "Bogi TripTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D1C8522790C5E9007C9752 /* Debug */,
+				11D1C8532790C5E9007C9752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11D1C8542790C5E9007C9752 /* Build configuration list for PBXNativeTarget "Bogi TripUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11D1C8552790C5E9007C9752 /* Debug */,
+				11D1C8562790C5E9007C9752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11D1C81C2790C5E0007C9752 /* Project object */;
+}
