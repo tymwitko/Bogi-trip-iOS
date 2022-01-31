@@ -1,5 +1,5 @@
 # Bogi-trip-iOS
-iOS version of ![Bogi Trip](https://github.com/tymwitko/Bogi-Trip).
+iOS version of [Bogi Trip](https://github.com/tymwitko/Bogi-Trip).
 
 ## Description
 Swift iOS app for randomizing the trip destination within selected distance. Inspired by a school trip idea by Piotr Bogucki.
